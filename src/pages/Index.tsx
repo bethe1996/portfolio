@@ -113,7 +113,7 @@ const handleContactSubmit = (e: React.FormEvent<HTMLFormElement>) => {
   const message = String(data.get("message") || "");
   const subject = `Portfolio Inquiry from ${name}`;
   const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
-  window.location.href = `mailto:bethe.designs@email.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.location.href = `mailto:bethebayou@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   form.reset();
 };
 
