@@ -34,7 +34,7 @@ import btsun03 from "@/assets/btsun/btsun-03.jpg";
 import btsun04 from "@/assets/btsun/btsun-04.jpg";
 import btsun05 from "@/assets/btsun/btsun-05.jpg";
 import btsun06 from "@/assets/btsun/btsun-06.jpg";
-import btsunMain from "@/assets/btsun/btsun.jpg";
+
 import butterfly01 from "@/assets/butterfly/ER-01.jpg";
 import butterfly02 from "@/assets/butterfly/ER-02.jpg";
 import butterfly03 from "@/assets/butterfly/ER-03.jpg";
@@ -143,7 +143,7 @@ const portfolioItems = [
     image: btsun03,
     tags: ["Identity", "Logo", "Digital"],
     duration: "5 weeks",
-    images: [btsun01, btsun02, btsun03, btsun04, btsun05, btsun06, btsunMain],
+    images: [btsun01, btsun02, btsun03, btsun04, btsun05, btsun06],
     process: [
       "Market reading — locating a quiet space beyond clichés",
       "Concept exploration — merging geometry with subtle motion cues",
